@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Omni",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.enableSmartCommit": true,
+    "editor.minimap.enabled": false,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "remoteHub.commitDirectlyWarning": "off",
+    "workbench.editorAssociations": {
+        "*.html": "default"
+    }
+}
