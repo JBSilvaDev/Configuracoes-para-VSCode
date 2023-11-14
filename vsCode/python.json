@@ -1,134 +1,71 @@
 {
-  "python.pythonPath": "C:\\Users\\jbsil\\anaconda3\\python.exe",
-  "python.terminal.activateEnvironment": true,
-  "workbench.iconTheme": "vscode-icons",
-  "git.enableSmartCommit": true,
-  "git.ignoreLegacyWarning": true,
-  "git.autofetch": true,
-  "git.openRepositoryInParentFolders": "always",
-  "git.confirmSync": false,
-  "files.autoSave": "afterDelay",
-  "powermode.enabled": true,
-  "powermode.presets": "flames",
-  "powermode.combo.timerEnabled": "hide",
-  "powermode.combo.counterEnabled": "hide",
-  "powermode.shake.enabled": false,
-  "powermode.combo.location": "off",
-  
-  "[python]": {
-      "editor.formatOnSave": true,
-      "editor.formatOnType": true,
-      "editor.defaultFormatter": "ms-python.black-formatter",
-      "editor.rulers": [
-          80
-        ],
-  "editor.detectIndentation": false,
-  "editor.guides.indentation": false,
-  "editor.guides.highlightActiveIndentation": "always",
-  "editor.tabSize": 4,
-  "diffEditor.renderIndicators": true,
-  "diffEditor.renderMarginRevertIcon": true,
-  "diffEditor.renderSideBySide": true,
-  "diffEditor.wordWrap": "inherit",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.codeActionWidget.showHeaders": true,
-  "editor.codeLens": true,
-  "editor.colorDecorators": true,
-  "editor.comments.ignoreEmptyLines": true,
-  "editor.comments.insertSpace": true,
-  "editor.copyWithSyntaxHighlighting": true,
-  "editor.cursorStyle": "line"
-  },
-  "isort.args":["--profile", "black"],
-  "workbench.editorAssociations": {
-    "*.py": "default",
-    "*.ipynb": "jupyter-notebook",
-    "*.db": "sqlite3-editor.editor",
-    "*.xlsx": "gc-excelviewer-excel-editor",
-    "*.md": "default",
-    "*.csv": "gc-excelviewer-csv-editor",
-    "*.png": "imagePreview.previewEditor",
-    "*.ico": "imagePreview.previewEditor"
-  },
-  "git.ignoreMissingGitWarning": true,
-  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
-  "jupyter.askForKernelRestart": false,
-  "workbench.colorTheme": "Default Dark+",
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.minimap.enabled": false,
-"vsicons.dontShowNewVersionMessage": true,
-"editor.accessibilitySupport": "off",
-"editor.selectionHighlight": false,
-"editor.suggest.snippetsPreventQuickSuggestions": false,
-"editor.codeActionsOnSave": {
-  "source.fixAll": true
-},
-"editor.tabSize": 2,
-"editor.indentSize": "tabSize",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.fixAll": ["source.unusedImports"],  
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.coverage": true,
+        "**/.coverage.*": true,
+        "**/.hypothesis": true,
+        "**/.mypy_cache": true,
+        "**/.nox": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true,
+        "**/.tox": true
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Omni",
+    "RainbowBrackets.depreciation-notice": false,
+    "workbench.iconTheme": "vscode-icons",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": false,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "workbench.colorCustomizations": {
+         // Barras de opções lateral
+        "activityBar.foreground": "#e7913b",
+        "activityBar.background": "#070707",
+        "activityBar.inactiveForeground": "#c4c1c1",
+        
+        // Editor 
+        "editor.background": "#000000",
+        "editor.lineHighlightBorder": "#e7913b10",
+        "editorGroup.border": "#775e4454",
+        "editorGroupHeader.tabsBorder": "#775e4454",
+        
+        // Abas
+        "tab.activeBorder": "#ff0000",
+        "tab.activeForeground": "#ffffff",
+        "tab.inactiveBackground": "#000000",
+        "tab.inactiveForeground": "#dfdddd",
+        "editorGroupHeader.tabsBackground": "#070707",
+        // Menu de pastas
+        "sideBar.background": "#070707",
+        "sideBar.border": "#775e4454",
+        "sideBarSectionHeader.background": "#070707",
+        "sideBar.foreground":"#dfdddd",
+        // Terminal
+        "terminal.background": "#070707",
+        "panel.background": "#070707",
+        "panel.border": "#775e4454",
+        "panelTitle.activeBorder": "#ee0303",
+        "panelTitle.inactiveForeground": "#c4c1c1",
+        // Barra titulo
+        "titleBar.activeBackground": "#070707",
+        "titleBar.activeForeground": "#dfdddd",
+        
 
-"terminal.integrated.env.osx": {
-  "FIG_NEW_SESSION": "1"
-},
-"RainbowBrackets.depreciation-notice": false,
-"explorer.expandSingleFolderWorkspaces": false,
-"editor.suggest.showFolders": true,
-"explorer.compactFolders": false,
-"dart.checkForSdkUpdates": false,
-"generate.template.type": "Clean Code",
-
-"workbench.colorCustomizations": {
-  "workbench.colorTheme": "Default Dark+",
-  "activityBar.background": "#070707",
-  "activityBar.foreground": "#dfdedd",
-  "activityBar.inactiveForeground": "#383737",
-  "sideBar.background": "#070707",
-  "sideBar.border": "#1a1a1a",
-  "sideBarSectionHeader.background": "#070707",
-  "sideBar.foreground": "#dfdddd",
-  "editor.background": "#070707",
-  "editor.selectionHighlightBorder": "#755656",
-  "editor.snippetTabstopHighlightBorder":  "#a4a0a0", 
-  "terminal.background": "#070707",
-  "titleBar.activeBackground": "#070707",
-  "dropdown.background": "#464242",
-  "dropdown.listBackground": "#070707",
-  "dropdown.border": "#070707",
-  "dropdown.foreground": "#fdfafa",
-  "titleBar.activeForeground": "#dfdddd",
-  "input.background": "#070707",
-  "panel.background": "#070707",
-  "panel.border": "#1a1a1a",
-  "panelTitle.activeBorder": "#dfdedd",
-  "panelTitle.inactiveForeground": "#383737",
-  "editor.lineHighlightBorder": "#171717",
-  "editorGroup.border": "#1a1a1a",
-  "editorGroupHeader.tabsBackground": "#070707",
-  "editorGroupHeader.tabsBorder": "#1a1a1a",
-  "tab.activeBorder": "#ff0000",
-  "tab.activeBackground": "#070707",
-  "tab.inactiveBackground": "#070707",
-  "tab.activeForeground": "#ffffff",
-  "tab.inactiveForeground": "#dfdddd"
-  
-},
-"tabnine.experimentalAutoImports": true,
-"Codegeex.Privacy": true,
-"indentRainbow.indicatorStyle": "light",
-"indentRainbow.errorColor": "rgba(0, 0, 0, 0)",
-"python.analysis.autoImportUserSymbols": true,
-"python.analysis.autoImportCompletions": true,
-"python.analysis.completeFunctionParens": true,
-"python.analysis.addImport.exactMatchOnly": true,
-"explorer.confirmDelete": false,
-"jupyter.interactiveWindow.creationMode": "perFile",
-"remoteHub.commitDirectlyWarning": "off",
-"notebook.formatOnSave.enabled": true,
-"python.formatting.provider": "black",
-"errorLens.excludeBySource": [
-  "Pylance(reportMissingImports)"
-],
-"files.exclude": {
-  "__pycache__": true,
-  ".vscode": true
-}
+    },
+    "editor.minimap.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[django-html]": {
+        "editor.defaultFormatter": "junstyle.vscode-django-support"
+    },
+    
 }
