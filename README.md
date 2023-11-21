@@ -34,3 +34,5 @@ Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, 
   alias meuip="ifconfig | grep 'inet ' | awk '{print $1, $2, $4}'"
   ```
 - Agora basta usar no powershell o comando `meuip` que ira obter o mesmo retorno do comando completo
+
+
