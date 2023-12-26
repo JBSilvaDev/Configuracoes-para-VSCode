@@ -4,37 +4,43 @@
 function meuip(){  
   Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
 }
-function n-venv(){  
+function new-venv(){  
   "Execultando: virtualenv venv"
+  pip install virtualenv
   virtualenv venv
+  ative-venv
 }
-function at-venv(){  
+function ative-venv(){  
   "Execultando: venv/Scritps/activate"
   venv/Scripts/activate
 }
-function pmr(){  
-  "Execultando: python manage.py runserver"
-  python manage.py runserver
+function freeze-save(){  
+  "Execultando: pip freeze > requirements.txt"
+  pip freeze > requirements.txt
 }
 function freeze-install(){  
   "Execultando: pip install -r requirements.txt"
   pip install -r requirements.txt
 }
+# Comandos DJANGO
+function django-init(){
+  "Executando: django-admin startproject setup ."
+  django-admin startproject setup .
+}
+function django-app($appName){
+  "Executando: django-admin startapp $appName"
+  django-admin startapp $appName
+}
 
+function pmr(){  
+  "Execultando: python manage.py runserver"
+  python manage.py runserver
+}
 function django-tables(){
   "Execultando: python manage.py makemigrations"
   python manage.py makemigrations
   "Execultando: python manage.py migrate"
   python manage.py migrate
-}
-
-function django-start(){ 
-  "Iniciando requerimentos django para projetos ja criados" 
-  n-venv
-  at-venv
-  freeze-install
-  django-tables
-  pmr
 }
 
 ```

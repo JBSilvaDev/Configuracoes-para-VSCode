@@ -12,7 +12,7 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.rulers": [
       80
-    ],
+    ]
   },
   "python.analysis.autoImportCompletions": true,
   "python.terminal.activateEnvironment": true,
@@ -73,6 +73,7 @@
     "tab.hoverBackground": "#c07a332f", // Borda ao passar o mouse
     // Painel de pastas
     "sideBar.background": "#070707",
+    "sideBar.border": "#202020",
     "sideBarSectionHeader.background": "#070707",
     "sideBar.foreground": "#dfdddd",
     // Editor
@@ -84,11 +85,11 @@
     "editor.lineHighlightBorder": "#c07a332f",
     "editorGroup.border": "#070707",
     // Terminal e Painel
-    "terminal.border": "#070707",
+    "terminal.border": "#202020",
     "terminal.background": "#070707",
     "panel.background": "#070707",
     "panelTitle.activeForeground": "#ffffff",
-    "panel.border": "#070707",
+    "panel.border": "#202020",
     "panelTitle.activeBorder": "#c07a33",
     "panelTitle.inactiveForeground": "#b3b3b3",
     "input.background": "#070707",
@@ -97,7 +98,7 @@
     "breadcrumb.background": "#070707a2",
     "breadcrumb.foreground": "#ffffff",
     "statusBar.background": "#070707a2",
-    "titleBar.activeBackground": "#070707",
+    "titleBar.activeBackground": "#070707"
   },
   "RainbowBrackets.depreciation-notice": false,
   "git.enableSmartCommit": true,
@@ -109,4 +110,10 @@
   },
   "vsicons.dontShowNewVersionMessage": true,
   "debug.toolBarLocation": "commandCenter",
+  "jupyter.askForKernelRestart": false,
+  "vscode-edge-devtools.webhintInstallNotification": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.activityBar.location": "top",
+  "git.openRepositoryInParentFolders": "always"
 }
