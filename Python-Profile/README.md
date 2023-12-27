@@ -1,4 +1,5 @@
 # Comandos personalizados do PowerShell
+
 ```ps1
 # Minhas funcoes
 function meuip(){  
@@ -44,3 +45,8 @@ function django-tables(){
 }
 
 ```
+# Configurações
+Basta copiar e colar o settings.json para a pasta de configuração de usuario do vsCode
+# Extenções
+Basta copiar e colar o extensions.json para a pasta de confifuração do usuario do vsCode\
+Talvez seja necessario alteração do path de usuario
