@@ -7,7 +7,7 @@
     "version": "3.0.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
+      "path": "/c:/Users/julianobs/.vscode/extensions/hoovercj.vscode-power-mode-3.0.2",
       "scheme": "file"
     },
     "relativeLocation": "hoovercj.vscode-power-mode-3.0.2",
@@ -30,7 +30,7 @@
     "version": "0.16.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/tyriar.luna-paint-0.16.0",
+      "path": "/c:/Users/julianobs/.vscode/extensions/tyriar.luna-paint-0.16.0",
       "scheme": "file"
     },
     "relativeLocation": "tyriar.luna-paint-0.16.0",
@@ -53,7 +53,7 @@
     "version": "1.0.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
+      "path": "/c:/Users/julianobs/.vscode/extensions/tal7aouy.rainbow-bracket-1.0.2",
       "scheme": "file"
     },
     "relativeLocation": "tal7aouy.rainbow-bracket-1.0.2",
@@ -76,7 +76,7 @@
     "version": "0.30.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.30.0",
+      "path": "/c:/Users/julianobs/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.30.0",
       "scheme": "file"
     },
     "relativeLocation": "kisstkondoros.vscode-gutter-preview-0.30.0",
@@ -93,36 +93,13 @@
   },
   {
     "identifier": {
-      "id": "visualstudioexptteam.intellicode-api-usage-examples",
-      "uuid": "9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3"
-    },
-    "version": "0.2.8",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.8",
-      "scheme": "file"
-    },
-    "relativeLocation": "visualstudioexptteam.intellicode-api-usage-examples-0.2.8",
-    "metadata": {
-      "id": "9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3",
-      "publisherId": "e8db1608-52e8-4d8d-92a6-779c5db302a9",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "updated": false,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1700947246098,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "plibither8.remove-comments",
       "uuid": "838d060e-1c47-4e05-b553-439c5b94fedc"
     },
     "version": "1.2.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/plibither8.remove-comments-1.2.2",
+      "path": "/c:/Users/julianobs/.vscode/extensions/plibither8.remove-comments-1.2.2",
       "scheme": "file"
     },
     "relativeLocation": "plibither8.remove-comments-1.2.2",
@@ -139,59 +116,13 @@
   },
   {
     "identifier": {
-      "id": "ms-toolsai.vscode-jupyter-cell-tags",
-      "uuid": "ab4fb32a-befb-4102-adf9-1652d0cd6a5e"
-    },
-    "version": "0.1.8",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-toolsai.vscode-jupyter-cell-tags-0.1.8",
-    "metadata": {
-      "id": "ab4fb32a-befb-4102-adf9-1652d0cd6a5e",
-      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "updated": false,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1700947246421,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
-      "id": "ms-toolsai.vscode-jupyter-slideshow",
-      "uuid": "e153ca70-b543-4865-b4c5-b31d34185948"
-    },
-    "version": "0.1.5",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-toolsai.vscode-jupyter-slideshow-0.1.5",
-    "metadata": {
-      "id": "e153ca70-b543-4865-b4c5-b31d34185948",
-      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "updated": false,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1700947246450,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "ms-toolsai.jupyter-keymap",
       "uuid": "9f6dc8db-620c-4844-b8c5-e74914f1be27"
     },
     "version": "1.1.2",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2",
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2",
       "scheme": "file"
     },
     "relativeLocation": "ms-toolsai.jupyter-keymap-1.1.2",
@@ -214,7 +145,7 @@
     "version": "0.2.5",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
+      "path": "/c:/Users/julianobs/.vscode/extensions/george-alisson.html-preview-vscode-0.2.5",
       "scheme": "file"
     },
     "relativeLocation": "george-alisson.html-preview-vscode-0.2.5",
@@ -237,7 +168,7 @@
     "version": "12.6.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/vscode-icons-team.vscode-icons-12.6.0",
+      "path": "/c:/Users/julianobs/.vscode/extensions/vscode-icons-team.vscode-icons-12.6.0",
       "scheme": "file"
     },
     "relativeLocation": "vscode-icons-team.vscode-icons-12.6.0",
@@ -254,59 +185,13 @@
   },
   {
     "identifier": {
-      "id": "visualstudioexptteam.vscodeintellicode",
-      "uuid": "876e8f93-74d0-4f4f-91b7-34a09f19f444"
-    },
-    "version": "1.2.30",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30",
-      "scheme": "file"
-    },
-    "relativeLocation": "visualstudioexptteam.vscodeintellicode-1.2.30",
-    "metadata": {
-      "id": "876e8f93-74d0-4f4f-91b7-34a09f19f444",
-      "publisherId": "e8db1608-52e8-4d8d-92a6-779c5db302a9",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "updated": false,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1700947246165,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
-      "id": "ms-toolsai.jupyter-renderers",
-      "uuid": "b15c72f8-d5fe-421a-a4f7-27ed9f6addbf"
-    },
-    "version": "1.0.17",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.17",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-toolsai.jupyter-renderers-1.0.17",
-    "metadata": {
-      "id": "b15c72f8-d5fe-421a-a4f7-27ed9f6addbf",
-      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "updated": false,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1700947246533,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "goopware.raythis",
       "uuid": "154e2314-e703-4e14-b2d8-c1405a2bc370"
     },
     "version": "1.1.1",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/goopware.raythis-1.1.1",
+      "path": "/c:/Users/julianobs/.vscode/extensions/goopware.raythis-1.1.1",
       "scheme": "file"
     },
     "relativeLocation": "goopware.raythis-1.1.1",
@@ -323,36 +208,13 @@
   },
   {
     "identifier": {
-      "id": "ms-python.black-formatter",
-      "uuid": "859e640c-c157-47da-8699-9080b81c8371"
-    },
-    "version": "2023.6.0",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-python.black-formatter-2023.6.0",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-python.black-formatter-2023.6.0",
-    "metadata": {
-      "id": "859e640c-c157-47da-8699-9080b81c8371",
-      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "updated": false,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1700947246754,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "oderwat.indent-rainbow",
       "uuid": "eaa2127d-cb69-4ab9-8505-a60c9ee5f28b"
     },
     "version": "8.3.1",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/oderwat.indent-rainbow-8.3.1",
+      "path": "/c:/Users/julianobs/.vscode/extensions/oderwat.indent-rainbow-8.3.1",
       "scheme": "file"
     },
     "relativeLocation": "oderwat.indent-rainbow-8.3.1",
@@ -369,36 +231,13 @@
   },
   {
     "identifier": {
-      "id": "grapecity.gc-excelviewer",
-      "uuid": "8bb12ae3-73f8-40cf-86b7-4bd5729c6238"
-    },
-    "version": "4.2.58",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/grapecity.gc-excelviewer-4.2.58",
-      "scheme": "file"
-    },
-    "relativeLocation": "grapecity.gc-excelviewer-4.2.58",
-    "metadata": {
-      "id": "8bb12ae3-73f8-40cf-86b7-4bd5729c6238",
-      "publisherId": "aa6deade-27ef-4481-9de7-720b9c9e0b86",
-      "publisherDisplayName": "GrapeCity",
-      "targetPlatform": "undefined",
-      "updated": false,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1701294774863,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "ritwickdey.liveserver",
       "uuid": "b63c44fd-0457-4696-99e9-dbfdf70d77de"
     },
     "version": "5.7.9",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ritwickdey.liveserver-5.7.9",
+      "path": "/c:/Users/julianobs/.vscode/extensions/ritwickdey.liveserver-5.7.9",
       "scheme": "file"
     },
     "relativeLocation": "ritwickdey.liveserver-5.7.9",
@@ -421,7 +260,7 @@
     "version": "2.1.3",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3",
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3",
       "scheme": "file"
     },
     "relativeLocation": "ms-edgedevtools.vscode-edge-devtools-2.1.3",
@@ -444,7 +283,7 @@
     "version": "3.9.0",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/mechatroner.rainbow-csv-3.9.0",
+      "path": "/c:/Users/julianobs/.vscode/extensions/mechatroner.rainbow-csv-3.9.0",
       "scheme": "file"
     },
     "relativeLocation": "mechatroner.rainbow-csv-3.9.0",
@@ -468,7 +307,7 @@
     "version": "0.1.10",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10",
+      "path": "/c:/Users/julianobs/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10",
       "scheme": "file"
     },
     "relativeLocation": "formulahendry.auto-rename-tag-0.1.10",
@@ -485,38 +324,13 @@
   },
   {
     "identifier": {
-      "id": "ms-toolsai.jupyter",
-      "uuid": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8"
-    },
-    "version": "2023.11.1003402403",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-toolsai.jupyter-2023.11.1003402403-win32-x64",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-toolsai.jupyter-2023.11.1003402403-win32-x64",
-    "metadata": {
-      "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
-      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "win32-x64",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1702040724054,
-      "pinned": false,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "ms-vsliveshare.vsliveshare",
       "uuid": "5a6dc0d5-dc02-4121-8e24-cad33a2ff0af"
     },
     "version": "1.0.5900",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5900",
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5900",
       "scheme": "file"
     },
     "relativeLocation": "ms-vsliveshare.vsliveshare-1.0.5900",
@@ -535,63 +349,13 @@
   },
   {
     "identifier": {
-      "id": "ms-python.python",
-      "uuid": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5"
-    },
-    "version": "2023.22.1",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-python.python-2023.22.1",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-python.python-2023.22.1",
-    "metadata": {
-      "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
-      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1702561274943,
-      "pinned": false,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
-      "id": "ms-python.vscode-pylance",
-      "uuid": "364d2426-116a-433a-a5d8-a5098dc3afbd"
-    },
-    "version": "2023.12.1",
-    "location": {
-      "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/ms-python.vscode-pylance-2023.12.1",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-python.vscode-pylance-2023.12.1",
-    "metadata": {
-      "id": "364d2426-116a-433a-a5d8-a5098dc3afbd",
-      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1702561275990,
-      "pinned": false,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "rangav.vscode-thunder-client",
       "uuid": "2fd56207-78ef-49d4-95d2-9b801eee4dbf"
     },
     "version": "2.16.3",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/rangav.vscode-thunder-client-2.16.3",
+      "path": "/c:/Users/julianobs/.vscode/extensions/rangav.vscode-thunder-client-2.16.3",
       "scheme": "file"
     },
     "relativeLocation": "rangav.vscode-thunder-client-2.16.3",
@@ -610,27 +374,445 @@
   },
   {
     "identifier": {
-      "id": "usernamehw.errorlens",
-      "uuid": "9d8c32ab-354c-4daf-a9bf-20b633734435"
+      "id": "ms-toolsai.vscode-jupyter-cell-tags",
+      "uuid": "ab4fb32a-befb-4102-adf9-1652d0cd6a5e"
     },
-    "version": "3.16.0",
+    "version": "0.1.9",
     "location": {
       "$mid": 1,
-      "path": "/c:/Users/JB Developer/.vscode/extensions/usernamehw.errorlens-3.16.0",
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9",
       "scheme": "file"
     },
-    "relativeLocation": "usernamehw.errorlens-3.16.0",
+    "relativeLocation": "ms-toolsai.vscode-jupyter-cell-tags-0.1.9",
     "metadata": {
-      "id": "9d8c32ab-354c-4daf-a9bf-20b633734435",
-      "publisherId": "151820df-5dc5-4c97-8751-eb84643203fa",
-      "publisherDisplayName": "Alexander",
+      "id": "ab4fb32a-befb-4102-adf9-1652d0cd6a5e",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
       "targetPlatform": "undefined",
       "isApplicationScoped": false,
       "updated": true,
       "isPreReleaseVersion": false,
-      "installedTimestamp": 1702904053942,
+      "hasPreReleaseVersion": false,
+      "installedTimestamp": 1714740915150,
       "pinned": false,
+      "preRelease": false,
+      "source": "gallery"
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-toolsai.vscode-jupyter-slideshow",
+      "uuid": "e153ca70-b543-4865-b4c5-b31d34185948"
+    },
+    "version": "0.1.6",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-toolsai.vscode-jupyter-slideshow-0.1.6",
+    "metadata": {
+      "id": "e153ca70-b543-4865-b4c5-b31d34185948",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "installedTimestamp": 1714740915160,
+      "pinned": false,
+      "preRelease": false,
+      "source": "gallery"
+    }
+  },
+  {
+    "identifier": {
+      "id": "usernamehw.errorlens",
+      "uuid": "9d8c32ab-354c-4daf-a9bf-20b633734435"
+    },
+    "version": "3.20.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/usernamehw.errorlens-3.20.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "usernamehw.errorlens-3.20.0",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1719242263818,
+      "pinned": false,
+      "source": "gallery",
+      "id": "9d8c32ab-354c-4daf-a9bf-20b633734435",
+      "publisherId": "151820df-5dc5-4c97-8751-eb84643203fa",
+      "publisherDisplayName": "Alexander",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
       "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "tomoki1207.pdf",
+      "uuid": "4386e6f6-ec10-4463-9d23-c24278718947"
+    },
+    "version": "1.2.2",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/tomoki1207.pdf-1.2.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "tomoki1207.pdf-1.2.2",
+    "metadata": {
+      "installedTimestamp": 1719588004991,
+      "source": "gallery",
+      "id": "4386e6f6-ec10-4463-9d23-c24278718947",
+      "publisherId": "36dae390-559e-4374-bca8-a49ec1616c36",
+      "publisherDisplayName": "tomoki1207",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "grapecity.gc-excelviewer",
+      "uuid": "8bb12ae3-73f8-40cf-86b7-4bd5729c6238"
+    },
+    "version": "4.2.62",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/grapecity.gc-excelviewer-4.2.62",
+      "scheme": "file"
+    },
+    "relativeLocation": "grapecity.gc-excelviewer-4.2.62",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1724930895257,
+      "pinned": false,
+      "source": "gallery",
+      "id": "8bb12ae3-73f8-40cf-86b7-4bd5729c6238",
+      "publisherId": "aa6deade-27ef-4481-9de7-720b9c9e0b86",
+      "publisherDisplayName": "MESCIUS",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-toolsai.jupyter",
+      "uuid": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8"
+    },
+    "version": "2024.8.1",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.jupyter-2024.8.1-win32-x64",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-toolsai.jupyter-2024.8.1-win32-x64",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1726079319254,
+      "pinned": false,
+      "source": "gallery",
+      "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "win32-x64",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-toolsai.jupyter",
+      "uuid": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8"
+    },
+    "version": "2024.9.1",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.jupyter-2024.9.1-win32-x64",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-toolsai.jupyter-2024.9.1-win32-x64",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1729166022979,
+      "pinned": false,
+      "source": "gallery",
+      "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "win32-x64",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-python.black-formatter",
+      "uuid": "859e640c-c157-47da-8699-9080b81c8371"
+    },
+    "version": "2024.4.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-python.black-formatter-2024.4.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-python.black-formatter-2024.4.0",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1728573359914,
+      "pinned": false,
+      "source": "gallery",
+      "id": "859e640c-c157-47da-8699-9080b81c8371",
+      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "meezilla.json",
+      "uuid": "e7bc27f0-a7f2-441b-b9df-103e37bd1e58"
+    },
+    "version": "0.1.2",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/meezilla.json-0.1.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "meezilla.json-0.1.2",
+    "metadata": {
+      "installedTimestamp": 1728935069515,
+      "pinned": false,
+      "source": "gallery",
+      "id": "e7bc27f0-a7f2-441b-b9df-103e37bd1e58",
+      "publisherId": "f8e16c19-bc2e-4498-95e1-cce42da07a7a",
+      "publisherDisplayName": "Meezilla",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "visualstudioexptteam.intellicode-api-usage-examples",
+      "uuid": "9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3"
+    },
+    "version": "0.2.9",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9",
+      "scheme": "file"
+    },
+    "relativeLocation": "visualstudioexptteam.intellicode-api-usage-examples-0.2.9",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1729768712978,
+      "pinned": false,
+      "source": "gallery",
+      "id": "9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3",
+      "publisherId": "e8db1608-52e8-4d8d-92a6-779c5db302a9",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "visualstudioexptteam.vscodeintellicode",
+      "uuid": "876e8f93-74d0-4f4f-91b7-34a09f19f444"
+    },
+    "version": "1.3.2",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "visualstudioexptteam.vscodeintellicode-1.3.2",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1729768712991,
+      "pinned": false,
+      "source": "gallery",
+      "id": "876e8f93-74d0-4f4f-91b7-34a09f19f444",
+      "publisherId": "e8db1608-52e8-4d8d-92a6-779c5db302a9",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-toolsai.jupyter",
+      "uuid": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8"
+    },
+    "version": "2024.10.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-win32-x64",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-toolsai.jupyter-2024.10.0-win32-x64",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1730312581221,
+      "pinned": false,
+      "source": "gallery",
+      "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "win32-x64",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-toolsai.jupyter-renderers",
+      "uuid": "b15c72f8-d5fe-421a-a4f7-27ed9f6addbf"
+    },
+    "version": "1.0.21",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.21",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-toolsai.jupyter-renderers-1.0.21",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1730654788271,
+      "pinned": false,
+      "source": "gallery",
+      "id": "b15c72f8-d5fe-421a-a4f7-27ed9f6addbf",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "streetsidesoftware.code-spell-checker",
+      "uuid": "f6dbd813-b0a0-42c1-90ea-10dde9d925a7"
+    },
+    "version": "4.0.21",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/streetsidesoftware.code-spell-checker-4.0.21",
+      "scheme": "file"
+    },
+    "relativeLocation": "streetsidesoftware.code-spell-checker-4.0.21",
+    "metadata": {
+      "installedTimestamp": 1732708432748,
+      "pinned": false,
+      "source": "gallery",
+      "id": "f6dbd813-b0a0-42c1-90ea-10dde9d925a7",
+      "publisherId": "67600ca7-88fb-4104-9f7e-dd51c00facf2",
+      "publisherDisplayName": "Street Side Software",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+      "uuid": "a669e675-9cb2-48a8-983d-33a1c4ed10ef"
+    },
+    "version": "2.2.2",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "streetsidesoftware.code-spell-checker-portuguese-brazilian-2.2.2",
+    "metadata": {
+      "installedTimestamp": 1732708432745,
+      "pinned": false,
+      "source": "gallery",
+      "id": "a669e675-9cb2-48a8-983d-33a1c4ed10ef",
+      "publisherId": "67600ca7-88fb-4104-9f7e-dd51c00facf2",
+      "publisherDisplayName": "Street Side Software",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-python.vscode-pylance",
+      "uuid": "364d2426-116a-433a-a5d8-a5098dc3afbd"
+    },
+    "version": "2024.12.1",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-python.vscode-pylance-2024.12.1",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-python.vscode-pylance-2024.12.1",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1733510101152,
+      "pinned": false,
+      "source": "gallery",
+      "id": "364d2426-116a-433a-a5d8-a5098dc3afbd",
+      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": true,
+      "preRelease": true
     }
   },
   {
@@ -638,27 +820,172 @@
       "id": "yy0931.vscode-sqlite3-editor",
       "uuid": "b45c1a9d-029a-4649-94ef-f74559881c8a"
     },
-    "version": "1.0.155",
+    "version": "1.0.197",
     "location": {
       "$mid": 1,
-      "fsPath": "c:\\Users\\JB Developer\\.vscode\\extensions\\yy0931.vscode-sqlite3-editor-1.0.155",
-      "_sep": 1,
-      "external": "file:///c%3A/Users/JB%20Developer/.vscode/extensions/yy0931.vscode-sqlite3-editor-1.0.155",
-      "path": "/c:/Users/JB Developer/.vscode/extensions/yy0931.vscode-sqlite3-editor-1.0.155",
+      "path": "/c:/Users/julianobs/.vscode/extensions/yy0931.vscode-sqlite3-editor-1.0.197",
       "scheme": "file"
     },
-    "relativeLocation": "yy0931.vscode-sqlite3-editor-1.0.155",
+    "relativeLocation": "yy0931.vscode-sqlite3-editor-1.0.197",
     "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1733924994531,
+      "pinned": false,
+      "source": "gallery",
       "id": "b45c1a9d-029a-4649-94ef-f74559881c8a",
       "publisherId": "5c69fe58-fcf2-4e13-bf3c-03e7ff601540",
       "publisherDisplayName": "yy0931",
       "targetPlatform": "undefined",
-      "isApplicationScoped": false,
       "updated": true,
       "isPreReleaseVersion": false,
-      "installedTimestamp": 1703630165245,
-      "pinned": false,
+      "hasPreReleaseVersion": false,
       "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-toolsai.jupyter",
+      "uuid": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8"
+    },
+    "version": "2024.11.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-win32-x64",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-toolsai.jupyter-2024.11.0-win32-x64",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1733944303283,
+      "pinned": false,
+      "source": "gallery",
+      "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "win32-x64",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-python.python",
+      "uuid": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5"
+    },
+    "version": "2024.22.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-python.python-2024.22.0-win32-x64",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-python.python-2024.22.0-win32-x64",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1733944303279,
+      "pinned": false,
+      "source": "gallery",
+      "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "win32-x64",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-python.debugpy",
+      "uuid": "4bd5d2c9-9d65-401a-b0b2-7498d9f17615"
+    },
+    "version": "2024.15.2024121301",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/ms-python.debugpy-2024.15.2024121301-win32-x64",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-python.debugpy-2024.15.2024121301-win32-x64",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1734119271786,
+      "pinned": false,
+      "source": "gallery",
+      "id": "4bd5d2c9-9d65-401a-b0b2-7498d9f17615",
+      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "win32-x64",
+      "updated": true,
+      "isPreReleaseVersion": true,
+      "hasPreReleaseVersion": true,
+      "preRelease": true
+    }
+  },
+  {
+    "identifier": {
+      "id": "codeium.codeium",
+      "uuid": "acab4f40-b6db-42ec-bcd1-01802cbdd988"
+    },
+    "version": "1.30.2",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/julianobs/.vscode/extensions/codeium.codeium-1.30.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "codeium.codeium-1.30.2",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1734191995603,
+      "pinned": false,
+      "source": "gallery",
+      "id": "acab4f40-b6db-42ec-bcd1-01802cbdd988",
+      "publisherId": "082b0525-4adf-4bcc-b60f-afa86c60860d",
+      "publisherDisplayName": "Codeium",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "codezombiech.gitignore",
+      "uuid": "3e891cf9-53cb-49a3-8d01-8f0b1f0afb29"
+    },
+    "version": "0.9.0",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\julianobs\\.vscode\\extensions\\codezombiech.gitignore-0.9.0",
+      "_sep": 1,
+      "external": "file:///c%3A/Users/julianobs/.vscode/extensions/codezombiech.gitignore-0.9.0",
+      "path": "/c:/Users/julianobs/.vscode/extensions/codezombiech.gitignore-0.9.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "codezombiech.gitignore-0.9.0",
+    "metadata": {
+      "installedTimestamp": 1734308562179,
+      "pinned": false,
+      "source": "gallery",
+      "id": "3e891cf9-53cb-49a3-8d01-8f0b1f0afb29",
+      "publisherId": "930310c4-ca8b-4e80-9d19-2b1507b2af61",
+      "publisherDisplayName": "CodeZombie",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
     }
   }
 ]
