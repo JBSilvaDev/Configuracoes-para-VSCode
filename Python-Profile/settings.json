@@ -123,5 +123,16 @@
       "*": true,
       "markdown": true
     },
-    "codeium.disableSupercomplete": true
+    "codeium.disableSupercomplete": false,
+    "vscodeGoogleTranslate.preferredLanguage": "Amharic",
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "python": true
+    },
+    "python.createEnvironment.trigger": "off",
+    "terminal.integrated.enableMultiLinePasteWarning": false
   }
