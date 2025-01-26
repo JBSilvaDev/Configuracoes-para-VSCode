@@ -85,6 +85,18 @@ function freeze-install(){
   "Execultando: pip install -r requirements.txt"
   pip install -r requirements.txt
 }
+function venv-temp(){
+  "
+  Criando ambiente temporario
+  "
+  python -m venv temporario
+  "
+  Ativando ambiente
+  "
+  temporario/Scripts/activate
+
+  freeze-install
+}
 # Comandos DJANGO
 function django-init(){
   "Executando: django-admin startproject setup ."
