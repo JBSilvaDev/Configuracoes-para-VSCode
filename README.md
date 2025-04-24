@@ -1,5 +1,6 @@
 # Configs
-Meus perfils [VsCode](./vsCode/)
+
+[VsCode](./VsCode.md)
 
 # Funcoes com atalhos para shell
 ## Windows
