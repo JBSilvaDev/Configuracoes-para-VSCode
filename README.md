@@ -37,7 +37,7 @@ Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, 
 
 
 ***
-
+```ps1
 $MaximumHistoryCount = 2000
 
 # Import-Module posh-git
@@ -99,5 +99,5 @@ function take {
   New-Item -ItemType directory $args
   Set-Location "$args"
 }
-# Minhas funcoes
+```
 [Aqui](./Python-Profile/README.md)
