@@ -100,4 +100,4 @@ function take {
   Set-Location "$args"
 }
 ```
-[Aqui](./Python-Profile/README.md)
+Minhas funções [aqui](./Python-Profile/README.md)
