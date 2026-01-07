@@ -55,7 +55,7 @@
     "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
     },
-     // Cor do comentário normal
+    // Cor do comentário normal
     "editor.tokenColorCustomizations": {
         "comments": "#799906"        
     },
@@ -83,8 +83,9 @@
       "sideBarSectionHeader.background": "#070707",
       "sideBar.foreground": "#dfdddd",
       // Editor
-      "editor.selectionBackground": "#c07a332f",
-      "editorLineNumber.foreground": "#494848",
+      "editorCursor.foreground": "#ffffff",
+      "editor.selectionBackground": "default",
+      "editorLineNumber.foreground": "#afa9a9",
       "editor.background": "#070707",
       "editorGroupHeader.border": "#070707",
       "editor.snippetTabstopHighlightBorder": "#ed0c0c",

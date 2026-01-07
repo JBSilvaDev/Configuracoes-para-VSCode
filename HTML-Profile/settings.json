@@ -1,0 +1,101 @@
+// Este arquivo esta em C:\Users\<USUARIO>\.vscode\extensions
+// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
+{
+    "files.autoSave": "afterDelay",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode-edge-devtools.webhintInstallNotification": true,
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.shake.enabled": false,
+    "powermode.combo.location": "off",
+    // Cor do comentário normal
+    "editor.tokenColorCustomizations": {
+        "comments": "#799906"        
+    },
+    "workbench.colorCustomizations": {
+      // Icone do perfil
+      "profileBadge.background": "#ff0800",
+      // Barra lateral esqueda
+      "activityBar.background": "#070707",
+      "activityBar.foreground": "#c07a33",
+      "activityBar.inactiveForeground": "#c7c4c4",
+      // Abas
+      "tab.activeBorder": "#c07a33",
+      "tab.activeBackground": "#070707",
+      "tab.inactiveBackground": "#070707",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#c7c4c4",
+      "editorGroupHeader.tabsBackground": "#070707",
+      "tab.activeBorderTop": "#070707",
+      "tab.unfocusedInactiveForeground": "#c7c4c4",
+      "tab.unfocusedActiveForeground": "#ffffff",
+      "tab.hoverBackground": "#c07a332f", // Borda ao passar o mouse
+      // Painel de pastas
+      "sideBar.background": "#070707",
+      "sideBar.border": "#202020",
+      "sideBarSectionHeader.background": "#070707",
+      "sideBar.foreground": "#dfdddd",
+      // Editor
+      "editorCursor.foreground": "#ffffff",
+      "editor.selectionBackground": "default",
+      "editorLineNumber.foreground": "#afa9a9",
+      "editor.background": "#070707",
+      "editorGroupHeader.border": "#070707",
+      "editor.snippetTabstopHighlightBorder": "#ed0c0c",
+      "editor.lineHighlightBorder": "#c07a332f",
+      "editorGroup.border": "#070707",
+      // Terminal e Painel
+      "terminal.border": "#202020",
+      "terminal.background": "#070707",
+      "panel.background": "#070707",
+      "panelTitle.activeForeground": "#ffffff",
+      "panel.border": "#202020",
+      "panelTitle.activeBorder": "#c07a33",
+      "panelTitle.inactiveForeground": "#b3b3b3",
+      "input.background": "#070707",
+      "": "#ed0c0c",
+      // Barra superir inferior
+      "breadcrumb.background": "#070707a2",
+      "breadcrumb.foreground": "#ffffff",
+      "statusBar.background": "#070707a2",
+      "titleBar.activeBackground": "#070707"
+    },
+      "RainbowBrackets.depreciation-notice": false,
+      "git.enableSmartCommit": true,
+      "git.confirmSync": false,
+      "git.autofetch": true,
+      "workbench.colorTheme": "Omni",
+      "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.jpg": "imagePreview.previewEditor",
+        "*.png": "imagePreview.previewEditor"
+      },
+      "vsicons.dontShowNewVersionMessage": true,
+    "debug.toolBarLocation": "commandCenter",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode-edge-devtools.browserFlavor": "Default",
+    "workbench.editor.empty.hint": "hidden",
+    "cSpell.languageSettings": [
+        {
+            "language": "en",
+            "enabled": true
+        },
+        {
+            "language": "pt-BR",
+            "enabled": true
+        }
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "remoteHub.commitDirectlyWarning": "off",
+    "workbench.iconTheme": "vscode-icons",
+}
