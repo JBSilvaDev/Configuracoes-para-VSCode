@@ -1,4 +1,5 @@
 // Este arquivo esta em C:\Users\<USUARIO>\AppData\Roaming\Code\User\profiles
+// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
 {
     "files.autoSave": "afterDelay",
     "[python]": {
@@ -21,7 +22,7 @@
         "*.xaml": "default"
     },
     "git.autofetch": true,
-    "powerquery.sdk.tools.location": "c:\\Users\\julianobs\\.vscode\\extensions\\powerquery.vscode-powerquery-sdk-0.6.3-win32-x64\\.nuget\\Microsoft.PowerQuery.SdkTools.2.146.1\\tools",
+    "powerquery.sdk.tools.location": "c:\\Users\\<USUARIO>\\.vscode\\extensions\\powerquery.vscode-powerquery-sdk-0.6.3-win32-x64\\.nuget\\Microsoft.PowerQuery.SdkTools.2.146.1\\tools",
     "powerquery.sdk.tools.version": "2.146.1",
     "workbench.colorTheme": "Omni",
     "git.ignoreMissingGitWarning": true,
@@ -49,7 +50,7 @@
     "RainbowBrackets.depreciation-notice": false,
     // Cor do comentário normal
     "editor.tokenColorCustomizations": {
-        "comments": "#799906",        
+        "comments": "#799906"        
     },
     "workbench.colorCustomizations": {
       // Icone do perfil

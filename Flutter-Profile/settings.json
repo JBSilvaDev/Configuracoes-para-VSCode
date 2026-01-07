@@ -1,4 +1,5 @@
 // Este arquivo esta em C:\Users\<USUARIO>\AppData\Roaming\Code\User\profiles
+// Executar CTRL+F e subistituir <USUARIO> pelo nome de usuario da máquina
 {
 
   "files.exclude": {
@@ -70,7 +71,10 @@
   "explorer.compactFolders": false,
   "dart.checkForSdkUpdates": false,
   "generate.template.type": "Clean Code",
-
+ // Cor do comentário normal
+    "editor.tokenColorCustomizations": {
+        "comments": "#799906"        
+    },
   "workbench.colorCustomizations": {
     "workbench.colorTheme": "Default Dark+",
     "activityBar.background": "#070707",
@@ -119,7 +123,7 @@
   "dart.showInspectorNotificationsForWidgetErrors": false,
   "workbench.iconTheme": "vscode-icons",
   "dart.debugExternalPackageLibraries": false,
-  "dart.flutterSdkPath": "/Users/jbsilva/fvm/versions/3.7.2",
+  "dart.flutterSdkPath": "/Users/<USUARIO>/fvm/versions/3.7.2",
   "dart.debugSdkLibraries": false,
   "vscode-office.openOutline": true,
   "errorLens.excludeBySource": [
