@@ -1,0 +1,101 @@
+{
+    "files.autoSave": "afterDelay",
+    "[python]": {
+
+        "editor.formatOnType": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.enableSmartCommit": true,
+    "editor.minimap.enabled": false,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.html": "default",
+        "*.md": "default",
+        "*.png": "luna.editor",
+        "*.jpeg": "luna.editor",
+        "*.pdf": "pdf.preview",
+        "*.yaml": "default",
+        "*.xaml": "default"
+    },
+    "git.autofetch": true,
+    "powerquery.sdk.tools.location": "c:\\Users\\julianobs\\.vscode\\extensions\\powerquery.vscode-powerquery-sdk-0.6.3-win32-x64\\.nuget\\Microsoft.PowerQuery.SdkTools.2.146.1\\tools",
+    "powerquery.sdk.tools.version": "2.146.1",
+    "workbench.colorTheme": "Omni",
+    "git.ignoreMissingGitWarning": true,
+    "files.associations": {
+        "*.py": "jupyter"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "jupyter.askForKernelRestart": false,
+    "redhat.telemetry.enabled": true,
+    "explorer.compactFolders": false,
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "vscode-office.editorTheme": "Light",
+    "cSpell.language": "pt_BR, en",
+    "vscode-edge-devtools.webhintInstallNotification": true,
+    "xml.server.preferBinary": true,
+    "diffEditor.codeLens": true,
+    "workbench.editor.empty.hint": "hidden",
+    "hediet.vscode-drawio.resizeImages": null,
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "RainbowBrackets.depreciation-notice": false,
+    // Cor do comentário normal
+    "editor.tokenColorCustomizations": {
+        "comments": "#799906",        
+    },
+    "workbench.colorCustomizations": {
+      // Icone do perfil
+      "profileBadge.background": "#ff0800",
+      // Barra lateral esqueda
+      "activityBar.background": "#070707",
+      "activityBar.foreground": "#c07a33",
+      "activityBar.inactiveForeground": "#c7c4c4",
+      // Abas
+      "tab.activeBorder": "#c07a33",
+      "tab.activeBackground": "#070707",
+      "tab.inactiveBackground": "#070707",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#c7c4c4",
+      "editorGroupHeader.tabsBackground": "#070707",
+      "tab.activeBorderTop": "#070707",
+      "tab.unfocusedInactiveForeground": "#c7c4c4",
+      "tab.unfocusedActiveForeground": "#ffffff",
+      "tab.hoverBackground": "#c07a332f", // Borda ao passar o mouse
+      // Painel de pastas
+      "sideBar.background": "#070707",
+      "sideBar.border": "#202020",
+      "sideBarSectionHeader.background": "#070707",
+      "sideBar.foreground": "#dfdddd",
+      // Editor
+      "editorCursor.foreground": "#ffffff",
+      "editor.selectionBackground": "default",
+      "editorLineNumber.foreground": "#afa9a9",
+      "editor.background": "#070707",
+      "editorGroupHeader.border": "#070707",
+      "editor.snippetTabstopHighlightBorder": "#ed0c0c",
+      "editor.lineHighlightBorder": "#c07a332f",
+      "editorGroup.border": "#070707",
+      // Terminal e Painel
+      "terminal.border": "#202020",
+      "terminal.background": "#070707",
+      "panel.background": "#070707",
+      "panelTitle.activeForeground": "#ffffff",
+      "panel.border": "#202020",
+      "panelTitle.activeBorder": "#c07a33",
+      "panelTitle.inactiveForeground": "#b3b3b3",
+      "input.background": "#070707",
+      "": "#ed0c0c",
+      // Barra superir inferior
+      "breadcrumb.background": "#070707a2",
+      "breadcrumb.foreground": "#ffffff",
+      "statusBar.background": "#070707a2",
+      "titleBar.activeBackground": "#070707"
+    }
+}

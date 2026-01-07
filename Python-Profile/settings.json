@@ -53,6 +53,10 @@
     "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
     },
+      // Cor do comentário normal
+    "editor.tokenColorCustomizations": {
+        "comments": "#5e995e"       
+    },
     "workbench.colorCustomizations": {
       // Icone do perfil
       "profileBadge.background": "#ff0800",
