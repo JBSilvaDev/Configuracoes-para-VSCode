@@ -1,3 +1,5 @@
+#Caminho arquivos json
+C:\Users\<USUARIO>\AppData\Roaming\Code\User\profiles
 # Configs
 
 [VsCode](./VsCode.md)
