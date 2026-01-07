@@ -1,104 +1,124 @@
-# Configs
+# Guia de Configuração para VSCode e PowerShell
 
-[VsCode](./VsCode.md)
+Este repositório contém configurações, temas e scripts para otimizar o ambiente de desenvolvimento com Visual Studio Code e PowerShell.
 
-# Funcoes com atalhos para shell
-## Windows
-- Exemplo de função powershell
-  - Para este exemplo uso o comando de verificar ips na maquina
-- Comando padrão
-```ps
-Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
+## ⚙️ Funções e Atalhos para o Shell
+
+Crie atalhos (funções ou aliases) para comandos longos e repetitivos.
+
+### Windows (PowerShell)
+
+**Objetivo:** Criar uma função `meuip` para verificar os endereços IPv4.
+
+1.  **Comando Original:**
+    ```powershell
+    Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
+    ```
+
+2.  **Abra o seu perfil do PowerShell:**
+    ```powershell
+    code $PROFILE
+    ```
+
+3.  **Adicione a função ao arquivo `.ps1` que abrir:**
+    ```powershell
+    function meuip() {
+        Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
+    }
+    ```
+
+4.  **Pronto!** Após salvar o arquivo e recarregar seu terminal, basta digitar `meuip` para executar o comando.
+
+### macOS (Zsh/Bash)
+
+**Objetivo:** Criar um alias `meuip` para verificar as configurações de rede.
+
+1.  **Comando Original:**
+    ```bash
+    ifconfig | grep "inet " | awk '{print $1, $2, $4}'
+    ```
+
+2.  **Adicione o alias ao seu arquivo de configuração** (como `~/.zshrc` ou `~/.bash_profile`):
+    ```bash
+    alias meuip="ifconfig | grep 'inet ' | awk '{print \$1, \$2, \$4}'"
+    ```
+
+3.  **Pronto!** Recarregue seu shell e o comando `meuip` estará disponível.
+
+---
+
+## 🚀 Configuração do Ambiente PowerShell no Windows
+
+Este guia auxilia na instalação das dependências para o funcionamento do perfil customizado do PowerShell.
+
+### Pré-requisitos
+
+- **PowerShell 7+:** Certifique-se de ter uma versão atualizada.
+  ```powershell
+  winget search --id Microsoft.PowerShell
+  ```
+
+### 1. Instalar Nerd Fonts
+
+Para que os ícones e temas funcionem corretamente, é essencial ter uma "Nerd Font" instalada e configurada no seu terminal (VSCode, Windows Terminal, etc.).
+
+- **Instalação via Oh My Posh (Administrador):**
+  ```powershell
+  oh-my-posh font install meslo
+  ```
+  *Após a instalação, configure seu terminal para usar a fonte `MesloLGS NF`.*
+
+### 2. Instalar Oh My Posh
+
+Gerenciador de temas para o prompt de comando.
+
+- **Instalação via Winget:**
+  ```powershell
+  winget install JanDeDobbeleer.OhMyPosh -s winget
+  ```
+  *Reinicie o terminal após a instalação.*
+
+### 3. Instalar Módulos Essenciais do PowerShell
+
+Execute os comandos abaixo para adicionar funcionalidades ao seu terminal:
+
+```powershell
+# Integração com Git
+Install-Module posh-git -Scope CurrentUser -Force
+
+# Ícones para arquivos e pastas (ls/dir)
+Install-Module Terminal-Icons -Scope CurrentUser -Force
+
+# Autocompletar para comandos Docker
+Install-Module DockerCompletion -Scope CurrentUser -Force
+
+# Cores para o comando Get-ChildItem (ls/dir)
+Install-Module Get-ChildItemColor -Scope CurrentUser -Force
 ```
-- Para criar uma função pra este comando usar
-  ```ps
-  code $PROFILE
-  ```
-   - Um arquivo .ps1 ira abrir no vsCode
-   - Neste arquivo criar a função como abaixo
-      ```ps1
-      function meuip(){  
-      Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress, PrefixLength
-      }
-      ```
-- Agora basta usar no powershell o comando `meuip` que ira obter o mesmo retorno do comando completo
 
-## Mac
-- Exemplo de alias no zsh
-  - Para este exemplo uso o comando de verificar ips na maquina
-- Comando padrão
-  ```bash
-  ifconfig | grep "inet " | awk '{print $1, $2, $4}'
-  ```
-- Para criar o alias no mac basta setar uma variavel do tipo alias no arquivo de configuração de variaveis de ambiente
-  ```
-  alias meuip="ifconfig | grep 'inet ' | awk '{print $1, $2, $4}'"
-  ```
-- Agora basta usar no powershell o comando `meuip` que ira obter o mesmo retorno do comando completo
+---
 
+## 🎨 Temas para o PowerShell (Oh My Posh)
 
-***
-```ps1
-$MaximumHistoryCount = 2000
+Para alterar o tema, modifique a seguinte linha no seu perfil (`$PROFILE`):
 
-# Import-Module posh-git
-# Import-Module PSReadLine
-# Import-Module Get-ChildItemColor
-# Import-Module Terminal-Icons
-# Import-Module DockerCompletion
-
-
-
-# Configuração tema
-## Melhores:
-  # material
-  # spaceship
-  # Usar Get-PoshThemes para ver mais opcoes
-    # Alterar o nomeDoTema.omp.json na linha abaixo
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/material.omp.json" | Invoke-Expression
-
-# Uses tab for autocompletion
-Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
-
-# History definitions
-$HistoryFilePath = Join-Path ([Environment]::GetFolderPath('UserProfile')) .ps_history
-Register-EngineEvent PowerShell.Exiting -Action { Get-History | Export-Clixml $HistoryFilePath } | out-null
-if (Test-path $HistoryFilePath) { Import-Clixml $HistoryFilePath | Add-History }
-
-Set-PSReadLineOption -HistorySearchCursorMovesToEnd
-Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
-Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-
-Set-PSReadLineOption -ShowToolTips
-Set-PSReadLineOption -PredictionSource History
-
-# Aliases
-Set-Alias which Get-Command
-Set-Alias open Invoke-Item
-
-function ll() { Get-ChildItem | Format-Table }
-function la() { Get-ChildItem | Format-Wide }
-function lb() { Get-ChildItem | Format-List }
-
-Set-Alias ls la
-Set-Alias l lb
-
-# Aliases Functions
-
-function profile() { code $PROFILE }
-function edh() { code "$HOME\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" }
-function eds() { code "$HOME\AppData\Local\oh-my-posh\spaceship.omp.json" }
-
-# Compute file hashes - useful for checking successful downloads
-function md5    { Get-FileHash -Algorithm MD5 $args }
-function sha1   { Get-FileHash -Algorithm SHA1 $args }
-function sha256 { Get-FileHash -Algorithm SHA256 $args }
-
-function tail { Get-Content $args -Tail 30 -Wait }
-
-function take {
-  New-Item -ItemType directory $args
-  Set-Location "$args"
-}
+```powershell
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/<nome-do-tema>.omp.json" | Invoke-Expression
 ```
-Minhas funções [aqui](./Python-Profile/README.md)
+
+Use o comando `Get-PoshThemes` para ver a lista completa de temas disponíveis.
+
+### Exemplos de Temas
+
+| Tema       | Preview                                            |
+| ---------- | -------------------------------------------------- |
+| `material` | ![material](image/README/1767805407019.png)         |
+| `spaceship`| ![spaceship](image/README/1767805680124.png)        |
+| `easy-term`| ![easy-term](image/README/1767805713702.png)       |
+| `json`     | ![json](image/README/1767805643360.png)             |
+
+---
+
+## ✅ Arquivo de Perfil de Exemplo
+
+Um arquivo `VsCode.ps1` com todas essas configurações prontas para uso está disponível [aqui](./Arquivo%20PS1/VsCode.ps1). Você pode usá-lo como base para o seu perfil.
