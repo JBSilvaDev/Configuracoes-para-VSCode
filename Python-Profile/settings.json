@@ -21,6 +21,7 @@
     "python.analysis.fixAll": [
       "source.unusedImports"
     ],
+  
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.comments.insertSpace": true,
     "editor.cursorStyle": "line",
@@ -50,14 +51,13 @@
     "[jsonc]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "files.autoSave": "afterDelay",
     "workbench.iconTheme": "vscode-icons",
     "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
     },
-      // Cor do comentário normal
+     // Cor do comentário normal
     "editor.tokenColorCustomizations": {
-        "comments": "#5e995e"       
+        "comments": "#799906"        
     },
     "workbench.colorCustomizations": {
       // Icone do perfil
@@ -110,9 +110,11 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "workbench.colorTheme": "Default Dark+",
     "workbench.editorAssociations": {
-      "*.jpg": "luna.editor"
+      "*.copilotmd": "vscode.markdown.preview.editor",
+      "*.jpg": "luna.editor",
+      "*.csv": "gc-excelviewer-csv-editor",
+      "*.jpeg": "luna.editor"
     },
     "vsicons.dontShowNewVersionMessage": true,
     "debug.toolBarLocation": "commandCenter",
@@ -125,20 +127,27 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "cSpell.language": "pt_BR, en",
-    "codeium.enableConfig": {
-      "*": true,
-      "markdown": true
-    },
-    "codeium.disableSupercomplete": false,
     "vscodeGoogleTranslate.preferredLanguage": "Amharic",
     "files.saveConflictResolution": "overwriteFileOnDisk",
     "github.copilot.enable": {
-      "*": true,
+      "*": false,
       "plaintext": false,
       "markdown": true,
       "scminput": false,
       "python": true
     },
     "python.createEnvironment.trigger": "off",
-    "terminal.integrated.enableMultiLinePasteWarning": false
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 14,
+    "editor.fontSize": 13.5,
+    "editor.fontWeight": "normal",
+    "python.analysis.typeCheckingMode": "basic",
+    "notebook.output.wordWrap": true,
+    "python.defaultInterpreterPath": "c:\\Users\\<USUARIO>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "workbench.colorTheme": "Omni"
   }
