@@ -112,13 +112,23 @@ Use o comando `Get-PoshThemes` para ver a lista completa de temas disponíveis.
 
 | Tema       | Preview                                            |
 | ---------- | -------------------------------------------------- |
-| `material` | ![material](image/README/1767805407019.png)         |
-| `spaceship`| ![spaceship](image/README/1767805680124.png)        |
-| `easy-term`| ![easy-term](image/README/1767805713702.png)       |
-| `json`     | ![json](image/README/1767805643360.png)             |
+| `material` | ![](image/README/1767806489629.png)        |
+| `spaceship`| ![](image/README/1767806578612.png)       |
+| `easy-term`| ![](image/README/1767806619109.png)      |
+| `json`     | ![](image/README/1767806536749.png)            |
 
 ---
 
 ## ✅ Arquivo de Perfil de Exemplo
 
 Um arquivo `VsCode.ps1` com todas essas configurações prontas para uso está disponível [aqui](./Arquivo%20PS1/VsCode.ps1). Você pode usá-lo como base para o seu perfil.
+
+## Meus Perfis DEV
+- [Default](./Default/)
+  - Perfil padrão com configurações básicas.
+- [Flutter](./Flutter/)
+  - Perfil otimizado para desenvolvimento Flutter.
+- [Python](./Python/)
+  - Perfil otimizado para desenvolvimento Python.
+- [HTML-CSS-JS](./HTML-CSS-JS/)
+  - Perfil otimizado para desenvolvimento web front-end.
