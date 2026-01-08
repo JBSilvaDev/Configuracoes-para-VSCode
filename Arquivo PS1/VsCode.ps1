@@ -22,7 +22,14 @@ Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 # History definitions
 $HistoryFilePath = Join-Path ([Environment]::GetFolderPath('UserProfile')) .ps_history
 Register-EngineEvent PowerShell.Exiting -Action { Get-History | Export-Clixml $HistoryFilePath } | out-null
-if (Test-path $HistoryFilePath) { Import-Clixml $HistoryFilePath | Add-History }
+if (Test-path $HistoryFilePath) {
+    try {
+        Import-Clixml $HistoryFilePath -ErrorAction Stop | Add-History
+    } catch {
+        # Remove arquivo de histórico corrompido para evitar erro na próxima abertura
+        Remove-Item $HistoryFilePath -Force
+    }
+}
 
 Set-PSReadLineOption -HistorySearchCursorMovesToEnd
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
@@ -150,3 +157,9 @@ function django-tables(){
   "Executando: python manage.py migrate"
   python manage.py migrate
 }
+
+# Esta parte so funcionará com PowerToys instalado e Comando Não Encontrado ativo
+#f45873b3-b655-43a6-b217-97c00aa0db58 PowerToys CommandNotFound module
+
+Import-Module -Name Microsoft.WinGet.CommandNotFound
+#f45873b3-b655-43a6-b217-97c00aa0db58
